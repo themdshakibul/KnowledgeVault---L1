@@ -28,7 +28,8 @@ body {
 }
 
 #banner,
-#notes {
+#notes,
+#brin {
   margin-bottom: 100px;
 }
 
@@ -176,4 +177,62 @@ body {
   font-weight: 400;
   line-height: 20px;
   columns: rgba(98, 115, 130, 1);
+}
+
+.branin-contet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.branin-contet .brnain-img img {
+  width: 600px;
+}
+
+.branin-contet .brain-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.branin-contet .brain-text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgba(70, 145, 101, 1);
+}
+
+.branin-contet .brain-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: Bold;
+  color: #001931;
+}
+
+.branin-contet .brain-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: Regular;
+  color: #627382;
+}
+
+.brain-text .text-group {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.brain-text .text-group img {
+  width: 20px;
+}
+
+.brain-text .text-group h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: Medium;
+  color: rgba(0, 25, 49, 1);
 }
